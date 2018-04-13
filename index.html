@@ -20,6 +20,22 @@
     <script src="script.js"></script>
 </head>
 <style> 
+.subtitle{
+     font-style:italic;
+}
+.jumbotron {
+   display: table;
+      width: 100%;
+      height: 10%;
+    padding-top:50px;
+    padding-right:50px;
+     padding-left:50px;
+      padding-bottom:50px;
+}
+    .container{
+          padding-top:50px;
+    }
+
 html, body {
       width: 100%;
       height: 100%;}
@@ -34,22 +50,41 @@ html, body {
         url('img/balloon-1.jpg') no-repeat center;
       background-size: cover;
     }
+    
     .pizza{
-        font-family:Times, serif;
+        
         color:white;
     }
+    #text-vertical-center {
+      text-align: center;
+      vertical-align: middle;
+      display: table-cell;
+      color: white;}
 </style>
 <body>
+    <nav class="navbar navbar-default navbar-fixed-top"></nav>
     <header id="landing">
-    <div class="text-vertical-center" id="pizza">
-      <h1 >Skydance Hot Air Balloon Rides</h1>
-      <h2>Ride with the wind. Dance with the sky.</h2>
-    <h1><font color="red">YOU LEFT YOUR C9 OPEN: WEI ZHENG. YOU NEED TO USE INCOGNITO: JENNIFER. CHECK YOUR CSS: JOHNSON. </font></H1>
-    </div> 
- <div>
-     
- </div>
-            
+    <div id="text-vertical-center" class="pizza">
+      <h1><font color="white">Skydance Hot Air Balloon Rides</font></h1>
+      <h3><font color="white">Ride with the wind. Dance with the sky.</font></h3>
+ </header>
+    </div>
+   
+    <div class="container " id="welcome">
+   <div class="jumbotron">
+      <h1>All the information you'll need
+<h2 class="subtitle">Time</h2>
+Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead for the exact meeting time.
+<h2  class="subtitle">Weather</h2>
+<p>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow their balloon flight.</p>
+<h2 class="subtitle">Flight</h2>
+<p>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+<h2  class="subtitle">Participation</h2>
+<p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+</h1>
+      
+    </div>
+   </div>
 </body>
 
 </html>
