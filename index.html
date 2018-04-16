@@ -20,6 +20,17 @@
     <script src="script.js"></script>
 </head>
 <style>
+    #food {
+        margin-top:10px;
+        display: table;
+        width: 100%;
+        height: 30%;
+        background: linear-gradient( rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0.1)),
+        url('img/balloon-2.jpg') no-repeat center;
+        background-size: cover;
+    }
+
     .subtitle {
         font-style: italic;
     }
@@ -68,31 +79,31 @@
 </style>
 
 <body>
- <nav class="navbar navbar-default" role="navigation">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-        </button>    
-    </div>
-   
-    <div class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-left">
-            <li><a href="#welcom">Item One</a></li>
-            <li><a href="#itemtwolink">Item Two</a></li>
-            <li><a href="#itemonelink">Item One</a></li>
-            <li><a href="#itemtwolink">Item Two</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="#signuplink">Signup</a></li>
-            <li><a href="#loginlink">Login</a></li>
-        </ul>
-    </div>
-</nav>
+        </button>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#welcome">Item One</a></li>
+                <li><a href="#itemtwolink">Item Two</a></li>
+                <li><a href="#itemonelink">Item One</a></li>
+                <li><a href="#itemtwolink">Item Two</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#signuplink">Signup</a></li>
+                <li><a href="#loginlink">Login</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <header id="landing">
-        <div id="text-vertical-center" class="pizza">
+        <div id="text-vertical-center" class="text-white">
             <h1>
                 <font color="white">Skydance Hot Air Balloon Rides</font>
             </h1>
@@ -100,28 +111,35 @@
                 <font color="white">Ride with the wind. Dance with the sky.</font>
             </h3>
     </header>
+      <header id="food">
+    <div class="container " id="welcome" >
+   
+        <div class="jumbotron">
+
+            <h2 class="subtitle">Home</h2>
+            <p> Home: Fun for Everyone Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.
+            </p>
+        </div>
+    </header>
     </div>
 
-    <div class="container " id="welcome">
-        <div class="jumbotron">
-            
-                <h2 class="subtitle">Home</h2>
-                <p> Home: Fun for Everyone Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.
-                </p>
-                <h2 class="subtitle">Time</h2>
-                <p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call
-                    ahead for the exact meeting time.</p>
-                <h2 class="subtitle">Weather</h2>
-                <p>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will
-                    allow their balloon flight.</p>
-                               <h2 class="subtitle">Flight</h2>
-                <p>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
-                 <h2 class="subtitle">Participation</h2>
-                <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
-        </div>
     </div>
-   
-    
+    <div></div>
+    <div class="container jumbotron" id="welcome">
+        <h2 class="subtitle">Time</h2>
+        <p>Due to climatic conditions, we can safely fly only in the early morning hours with our primary season and most beautiful months being May through November. Since our launch times vary through the seasons, we ask all our guests to call ahead for
+            the exact meeting time.</p>
+        <h2 class="subtitle">Weather</h2>
+        <p>High winds and/or inclement weather prevent us from flying. We ask all our guests to contact us in the early afternoon prior to their scheduled flight between 12:00 noon and 2:00 p.m. to verify that the forecasted weather conditions will allow
+            their balloon flight.</p>
+        <h2 class="subtitle">Flight</h2>
+        <p>Our actual flight time is approximately one to one and a half hours averaging closer to one and a half hours and we suggest to allow three to three and a half hours for the entire adventure.</p>
+        <h2 class="subtitle">Participation</h2>
+        <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
+    </div>
+    </div>
+
+
 </body>
 
 </html>
